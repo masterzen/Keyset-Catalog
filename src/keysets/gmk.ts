@@ -1650,6 +1650,73 @@ const sets = [
       KC_NLCK: { type: 'base' },
       KC_PAST: { type: 'base' }
     }
+  },
+  {
+    name: 'Metropolis',
+    designer: 'Nephlock',
+    colors: {
+      base: {
+        background: '#081F2C',
+        legend: '#3CDBC0'
+      },
+      mod: {
+        background: '#081F2C',
+        legend: '#E03C31'
+      },
+      mod2: {
+        background: '#081F2C',
+        legend: '#F1BE48'
+      },
+      accent1: {
+        background: '#3CDBC0',
+        legend: '#081F2C'
+      },
+      accent2: {
+        background: '#F1BE48',
+        legend: '#081F2C'
+      },
+      red: {
+        background: '#E03C31',
+        legend: '#081F2C'
+      }
+    },
+    specialKeys: {
+      KC_ENT: { type: 'accent1' },
+      KC_ESC: { type: 'accent2' },
+      KC_BSPC: { type: 'mod2' },
+      KC_INS: { type: 'mod2' },
+      KC_TAB: { type: 'mod2' },
+      KC_CAPSLOCK: { type: 'mod2' },
+      KC_PSCR: { type: 'mod2' },
+      KC_SLCK: { type: 'mod2' },
+      KC_PAUS: { type: 'mod2' },
+      KC_PGUP: { type: 'mod2' },
+      KC_PGDN: { type: 'mod2' },
+      KC_HOME: { type: 'mod2' },
+      KC_END: { type: 'mod2' },
+      KC_DEL: { type: 'mod2' },
+      KC_PENT: { type: 'accent1' },
+      KC_PMNS: { type: 'mod2' },
+      KC_PPLS: { type: 'mod2' },
+      KC_PSLS: { type: 'mod2' },
+      KC_NLCK: { type: 'mod2' },
+      KC_PAST: { type: 'mod2' },
+      KC_LALT: { type: 'mod' },
+      KC_LGUI: { type: 'mod', content: 'Code' },
+      KC_RALT: { type: 'red', content: 'Super' },
+      KC_RGUI: { type: 'mod' },
+      KC_APP: { type: 'mod' },
+      KC_LSFT: { type: 'mod' },
+      KC_RSFT: { type: 'mod' },
+      KC_F5: { type: 'base' },
+      KC_F6: { type: 'base' },
+      KC_F7: { type: 'base' },
+      KC_F8: { type: 'base' },
+      KC_UP: { type: 'mod' },
+      KC_DOWN: { type: 'mod' },
+      KC_LEFT: { type: 'mod' },
+      KC_RGHT: { type: 'mod' }
+    }
   }
 ];
 export default genIds(sets);
