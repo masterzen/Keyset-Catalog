@@ -1468,6 +1468,24 @@ const sets = [
     }
   },
   {
+    name: 'Burgundy R2',
+    designer: 'cocobrais',
+    colors: {
+      base: {
+        background: GmkBaseColors._RO1,
+        legend: GmkBaseColors._WS1
+      },
+      mod: {
+        background: GmkBaseColors._N9,
+        legend: GmkBaseColors._WS1
+      }
+    },
+    specialKeys: {
+      KC_ENT: { type: 'mod' },
+      KC_ESC: { type: 'mod' }
+    }
+  },
+  {
     name: 'Merlin',
     designer: '',
     colors: {
